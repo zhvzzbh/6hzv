@@ -4,11 +4,11 @@ body {
 .card {
     width: 190px;
     height: 270px;
-    border-radius: 10px;
+    border-radius: 14px;
     margin: auto;
     margin-top: 150px;
-    background: #161616;
-    box-shadow: 15px 15px 30px rgb(0, 0, 0),
+    background: #131313;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.877),
                 -15px -15px 30px rgba(0, 0, 0, 0);      
    }
   
