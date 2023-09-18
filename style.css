@@ -42,7 +42,7 @@ a {
     transition: 1s;
 }
 .button:hover {
-    background: #555555;
+    background: #da3012;
 }
 
 
@@ -50,8 +50,8 @@ a {
 
 .we {
     color: #cecece;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
     margin-left: 85px;
 }    
 
