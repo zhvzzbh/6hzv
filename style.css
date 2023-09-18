@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 0, 0, 0.952);
+    background-color: #131313;
 }
 .card {
     width: 190px;
@@ -7,9 +7,9 @@ body {
     border-radius: 10px;
     margin: auto;
     margin-top: 150px;
-    background: #111111ef;
+    background: #161616;
     box-shadow: 15px 15px 30px rgb(0, 0, 0),
-                -15px -15px 30px rgb(0, 0, 0);      
+                -15px -15px 30px rgba(0, 0, 0, 0);      
    }
   
    
