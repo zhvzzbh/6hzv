@@ -18,7 +18,7 @@ img {
     height: 90px;
     border-radius: 50px;
     margin-left: 50px;
-    margin-top: 5%;
+    margin-top: 7%;
   
 }
 
@@ -42,7 +42,7 @@ a {
     transition: 1s;
 }
 .button:hover {
-    background: #104d1f;
+    background: #555555;
 }
 
 
