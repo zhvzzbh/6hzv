@@ -6,26 +6,30 @@ body {
     width: 190px;
     height: 270px;
     border-radius: 14px;
-    background: #161616;
     margin: auto;
+    background: #161616;
     margin-top: 190px;   
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938),
                 -15px -15px 30px rgba(0, 0, 0, 0);      
    }
-  
+.card2 {
+    
+}
+   
   
 img {
     width: 90px;
     height: 90px;
     border-radius: 50px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 23px;
   
 }
 
 a {
     color: #cecece;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 
 .button {  
@@ -50,16 +54,16 @@ a {
     color: #cecece;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
-    margin-left: 85px;
     margin-top: 10px;
+    text-align: center;
 }    
 
 .wee2 {
     color: #cecece;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
-    margin-left: 77px; 
-    margin-bottom: 25px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
