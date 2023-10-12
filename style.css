@@ -66,11 +66,11 @@ a {
 }
 
 .button1:hover {
-    background: #9c1a1a;
+    background: hsl(219, 81%, 25%);
 }
 
 .button2:hover {
-    background: #218339;
+    background: hsl(219, 78%, 29%);
 }
 
 
