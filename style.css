@@ -14,13 +14,15 @@ body {
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938),
                 -15px -15px 30px rgba(0, 0, 0, 0);      
 }
-   
+
+.tittle {
+    margin-top: 30px;
+}
+
 .tittle img {
     width: 100px;
     height: 100px;
-    justify-content: center;
     margin-left: 40%;
-    margin-top: 30px;
 }
 
 .img img {
@@ -29,7 +31,6 @@ body {
     border-radius: 70px;
     margin-left: 60px;
     margin-top: 20px;
-  
 }
 
 a {
