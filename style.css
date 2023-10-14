@@ -5,6 +5,8 @@ body {
 .card {
     width: 220px;
     height: 350px;
+    border: 1px solid;
+    border-color: #525252fb;
     border-radius: 30px;
     margin: auto;
     justify-content: center;
@@ -107,7 +109,7 @@ a {
     transform: scale(1.05);
 }
 
-.we {
+.name {
     color: #cecece;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
@@ -116,7 +118,7 @@ a {
     transform: translate( 60, -0%);
 }    
 
-.wee2 {
+.nickname {
     color: #cecece;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
