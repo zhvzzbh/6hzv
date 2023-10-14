@@ -11,7 +11,16 @@ body {
     background: #0f0f0f;
     margin-top: 40px;   
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938),
-                -15px -15px 30px rgba(0, 0, 0, 0);      
+                -15px -15px 30px rgba(0, 0, 0, 0.342);      
+}
+
+.up {
+    transition: 0.4s;
+}
+
+.up:hover {
+    margin-left: 20px;
+    transform: scale(1.05); 
 }
 
 .tittle {
@@ -28,6 +37,7 @@ body {
     height: 115px;
     border-radius: 70px;
     margin-top: 30px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938); 
 }
 
 a {
@@ -42,6 +52,7 @@ a {
     height: 20px;
     margin: auto;
     margin-right: 10px;
+                 
 }
 
 .button2 img {
@@ -65,7 +76,8 @@ a {
     border-radius: 10px;
     user-select: none;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.4s;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938);
 }
 
 .button2 {  
@@ -81,15 +93,18 @@ a {
     border-radius: 10px;
     user-select: none;
     cursor: pointer;
-    transition: 1s;   
+    transition: 0.4s;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938);   
 }
 
 .button1:hover {
     background: hsl(219, 81%, 25%);
+    transform: scale(1.05);
 }
 
 .button2:hover {
     background: hsl(219, 78%, 29%);
+    transform: scale(1.05);
 }
 
 .we {
