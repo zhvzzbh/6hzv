@@ -2,7 +2,6 @@ body {
     background-color: #131313;
 }
 
-
 .card {
     width: 220px;
     height: 350px;
@@ -52,7 +51,6 @@ a {
     margin-right: 10px;
 }
 
-
 .button1 {
     margin-top: 30px;
     display: flex;
@@ -93,7 +91,6 @@ a {
 .button2:hover {
     background: hsl(219, 78%, 29%);
 }
-
 
 .we {
     color: #cecece;
@@ -156,14 +153,10 @@ body {
     transition: .4s !important;
 }
 
-
-
 span::before {
     content: '\A';
     white-space: pre
 }
-
-
 
 #overlay-toggle:checked~.overlay {
     animation-fill-mode: forwards;
