@@ -7,8 +7,8 @@
     <link rel="icon" href="https://pngimg.com/d/pentagram_PNG11.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <meta property="og:title" content="Seven."/>
-    <meta property="og:description" content="xxxxx">
+    <meta property="og:title" content="SevenDox"/>
+    <meta property="og:description" content="We Profile">
     <meta property="og:image" content="https://cdn.myportfolio.com/7d42d7ed2f4577fdd9599ed0b5a9bfe5/0f4da30f-f9eb-493f-948f-84dc1467a424_rwc_0x0x300x300x4096.gif?h=9b290abf670fa91716c9d119e4b9c3fc">
 </head>
 
@@ -17,7 +17,7 @@
 <script>
 	function audioPlay() {
 			var audio = document.getElementById("audio");
-			audio.volume = 1.0;
+			audio.volume = 0.3;
             audio.currentTime = 0;
 			audio.play();
 	}
@@ -43,7 +43,7 @@
 
 body {
     height: 100vh;
-    background-image: linear-gradient(black, rgb(10, 12, 14), rgb(18, 20, 29), rgb(0, 0, 0));
+    background-image: linear-gradient(black, rgb(10, 12, 14), rgb(18, 20, 28), rgb(0, 0, 0));
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -61,9 +61,48 @@ body {
 
 </style>
 
+
 <body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>SevenDox</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Em Breve..</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">login</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Em Breve..</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"></a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">login</a></button>
+            </div>
+        </div>
+    </header>
+
+    <script src="main.js"></script>
+
     <div class="tittle">
-        <img src="https://cdn.myportfolio.com/7d42d7ed2f4577fdd9599ed0b5a9bfe5/0f4da30f-f9eb-493f-948f-84dc1467a424_rwc_0x0x300x300x4096.gif?h=9b290abf670fa91716c9d119e4b9c3fc" alt=""></div>
+        <img src="assets/iconreal.gif" alt=""></div>
     <div class="card">
         <div class="up">
     <div class="card2"></div>
@@ -79,6 +118,7 @@ body {
     <div class="button2">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="">
             <a href="https://spotify.link/f2kM4JVCcDb" style="text-decoration: none;">Spotify</a></div>
+            </div>
     </div>
 </div>
 </body>
