@@ -327,7 +327,6 @@ span::before {
     z-index: 8;
 }
 
-
 .copywriter .text {
     font-family: Inter;
     font-style: normal;
@@ -338,9 +337,6 @@ span::before {
     color: rgb(119, 127, 137);
     cursor: pointer;
 }
-
-
-
 
 @font-face {
     font-family: "Graffiti";
