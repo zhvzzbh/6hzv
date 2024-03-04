@@ -4,11 +4,9 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
-
 header {
     background-color: transparent;
 }
-
 .nav-bar {
     display: flex;
     justify-content: space-between;
