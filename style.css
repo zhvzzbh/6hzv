@@ -268,10 +268,8 @@ body {
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938); 
 }
 
-a {
-    color: #cfcfcf;
-    font-family: ;
-    font-size: 16px;
+a:link {
+    color: #adadad;
 }
 
 .a1 {
