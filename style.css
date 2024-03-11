@@ -164,9 +164,7 @@ body {
 }
 
 .hr {
-    width: 100px;
     height: 10px;
-    margin: auto;
     color: #616161;
 }
 
@@ -268,7 +266,7 @@ body {
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.938); 
 }
 
-a:link {
+a {
     color: #adadad;
 }
 
